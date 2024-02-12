@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items:last center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: auto;
+    flex-direction: column;
+}
+
+.left-login > h1 {
+    color: #77ffc0;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2055;
+    border-radius: 20px;
+    box-shadow: 0px 10px 80px #00000056;
+    
+
+}
+
+.card-login > h1{
+    color: #00ff88;
+    font-weight: 800;
+    font-size: 35pt;
+    text-shadow: 0px 10px 20px #201b2c;
+    margin: 0;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color:#ffffffc5;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder{
+    color: #ffffff;
+}
+
+.btn {
+    text-decoration: none;
+    color: #a361ef;
+    border: solid 2px #a361ef;
+    padding: 15px 40px;
+    font-size: 24px;
+    border-radius: 8px;
+    transition: all 0.4s ease;
+    
+}
+
+.btn:hover{
+    /*hover: sera aplicado somente quando o ponteiro do mouse tiver nele*/
+    border-radius: 15px;
+    text-shadow: 0 0 12px #a361ef;
+    box-shadow: 0 0 12px 1px #6def61, 0 0 12px 1px #6def61 inset;/*o inset vai ser aplicado na parte interna*/
+}
+
+.btn-login2{
+    color: #a361ef;
+    background-color: transparent;
+    border-color: #a361ef;
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-size: 24px;
+    transition: all 0.4s ease;
+}
+
+.btn-login2:hover{
+    /*hover: sera aplicado somente quando o ponteiro do mouse tiver nele*/
+    border-radius: 15px;
+    text-shadow: 0 0 12px #a361ef;
+    box-shadow: 0 0 10px 1px #a361ef, 0 0 10px 1px #a361ef inset;/*o inset vai ser aplicado na parte interna*/
+}
