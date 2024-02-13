@@ -108,6 +108,7 @@ body{
     border: none;
     display:flex;
     align-items: center;
-
-
+}
+.botoes > senhaPerdida{
+    color:#32dd4f;
 }
